@@ -7,6 +7,96 @@
   pointer-events: none;
 }
 
+.product-management {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.add-product-form {
+  margin-bottom: 20px;
+}
+
+.add-product-form input {
+  margin-right: 10px;
+  padding: 8px;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.product-card h3 {
+  margin-top: 0;
+}
+
+.product-card button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.rating {
+  margin-bottom: 10px;
+}
+
+.rating span {
+  color: #ffd700; /* Màu vàng cho ngôi sao */
+}
+
+.reviews-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.review-item {
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+
+.edit-form {
+  margin-top: 10px;
+}
+
+.review-form {
+  margin-top: 10px;
+}
+
+.review-form input[type="text"],
+.review-form input[type="number"],
+.review-form button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.review-form input[type="text"],
+.review-form input[type="number"] {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.review-form button {
+  padding: 8px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.review-form button:hover {
+  background-color: #0056b3;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
